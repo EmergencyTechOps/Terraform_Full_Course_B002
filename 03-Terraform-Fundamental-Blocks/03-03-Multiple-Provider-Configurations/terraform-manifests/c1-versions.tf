@@ -13,6 +13,7 @@ terraform {
 provider "aws" {
   region = "us-east-1"
   profile = "default"
+  alias = "aws-east-1"
 }
 
 # Provider-2 for us-west-1
