@@ -19,3 +19,6 @@ data "aws_ami" "amzlinux" {
     values = [ "x86_64" ]
   }
 }
+
+
+  
